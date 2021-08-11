@@ -9,3 +9,5 @@ git add . -> comando para enviar todas as alterações para área intermediária
 git commit -m "nome da versão" -> comando para criar a versão, para salvar as alterações
 
 git log -> comando para visualizar todas as versões no repositório
+
+git reset --hard (chave do commit desejado) -> comando para trocar a versão de commit
