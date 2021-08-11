@@ -11,3 +11,7 @@ git commit -m "nome da versão" -> comando para criar a versão, para salvar as 
 git log -> comando para visualizar todas as versões no repositório
 
 git reset --hard (chave do commit desejado) -> comando para trocar a versão de commit
+
+git push origin main (git push) -> comando para enviar as alterações do repositório local para o repositório remoto (github)
+
+git pull -> comando para puxar as atualizações do github para meu repositório local
