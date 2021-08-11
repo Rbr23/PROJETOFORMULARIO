@@ -172,18 +172,13 @@
 
     function cadastrar(){
         let nome = document.querySelector("#nome").value
-        let telefone = document.querySelector("#telefone").value
+        let tel = document.querySelector("#telefone").value
         let cidade = document.querySelector("#cidade").value
         let estado = document.querySelector("#estado").value
-
-        if(estado == "Rio de janeiro"){
-            alert(`O número do celular do ${nome}  é ${telefone} 
+       
+        alert(`O número do celular do ${nome}  é ${tel} 
 
             Ele mora no estado do ${estado} e na cidade do ${cidade}`)
-        } else {
-            alert("Usuário não é do Rio de janeiro")
-        }
-
     }
 
 </script>
